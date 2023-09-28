@@ -1,0 +1,4 @@
+service : () -> {
+  decryptMessage : (text, int) -> (text) query;
+  encryptMessage : (text, int) -> (text) query;
+}
